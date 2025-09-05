@@ -1,0 +1,112 @@
+# ---- dotenv / secrets ----
+.env
+.env.*
+
+# ---- User/IDE files ----
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+.vs/
+.idea/
+# VS Code: ignore folder but keep common project configs
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# ---- Build/Artifacts ----
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+out/
+artifacts/
+publish/
+[Tt]est[Rr]esult*/
+[Ll]ogs/
+*.log
+[Bb]uild[Ll]og.*
+
+# ---- .NET / tooling ----
+project.lock.json
+project.fragment.lock.json
+.tye/
+ScaffoldingReadMe.txt
+
+# ---- Coverage/bench ----
+coverage*.json
+coverage*.xml
+coverage*.info
+*.coverage
+*.coveragexml
+BenchmarkDotNet.Artifacts/
+
+# ---- NuGet ----
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# ---- Azure/Web publish ----
+*.[Pp]ublish.xml
+*.azurePubxml
+*.pubxml
+*.publishproj
+PublishScripts/
+
+# ---- Azure emulator/Functions ----
+csx/
+*.build.csdef
+ecf/
+rcf/
+
+# ---- Web assets ----
+wwwroot/lib/
+node_modules/
+dist/
+
+# ---- Databases (keep EF migrations) ----
+*.mdf
+*.ldf
+*.ndf
+!**/Migrations/
+
+# ---- Config variants (keep base appsettings.json tracked) ----
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+*.secret.json
+*.secrets.json
+
+# ---- JetBrains/Resharper ----
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+$RECYCLE.BIN/
+[Dd]esktop.ini
+
+# ---- Misc ----
+*.e2e
+*.binlog
+.localhistory/
+.vshistory/
