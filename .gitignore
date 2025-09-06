@@ -88,6 +88,7 @@ dist/
 !**/Migrations/
 
 # ---- Config variants (keep base appsettings.json tracked) ----
+appsettings.json
 appsettings.Development.json
 appsettings.Local.json
 appsettings.*.local.json
