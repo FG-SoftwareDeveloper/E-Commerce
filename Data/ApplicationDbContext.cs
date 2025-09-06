@@ -16,6 +16,9 @@ namespace E_Commerce.Data
             // IMPORTANT: configure Identity tables/keys
             base.OnModelCreating(modelBuilder);
 
+            modelBuilder.Entity<Category>()
+                .HasIndex(c => c.Name).IsUnique();
+
             // Seed data
             modelBuilder.Entity<Category>().HasData(
                 new Category { Id = 1, Name = "Action", DisplayOrder = 1 },
